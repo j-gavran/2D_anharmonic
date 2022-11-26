@@ -1,6 +1,6 @@
 # 2D anharmonski oscilator
 ## Zaključna naloga: višje računske metode
-Final project for the course [Advanced computational methods](https://predmeti.fmf.uni-lj.si/VRM) 21/22.
+Final project for the course [Advanced computational methods](https://predmeti.fmf.uni-lj.si/VRM) 20/21.
 ### Solvers:
 1. Euler, Crank-Nicolson - ```cn.py```
 2. Finite difference methods - ```iter_diff.py``` & ```matrix_diff.py```
