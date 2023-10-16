@@ -1,6 +1,5 @@
-# 2D anharmonski oscilator
-## Zaključna naloga: višje računske metode
-Final project for the course [Advanced computational methods](https://predmeti.fmf.uni-lj.si/VRM) 20/21.
+# 2D anharmonic oscillator
+
 ### Solvers:
 1. Euler, Crank-Nicolson - ```cn.py```
 2. Finite difference methods - ```iter_diff.py``` & ```matrix_diff.py```
@@ -19,3 +18,5 @@ M.init_pot(n=n, a_x=a_x, a_y=a_y, lam=lam)
 
 res = M.start_method(check_overflow=False, save_every=Nt // 100)
 ```
+
+See [animations directory](/src/movies/) for results of time propagation.
